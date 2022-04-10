@@ -1,0 +1,41 @@
+.quiz {
+    background-image: linear-gradient(to right, #1EA292, $headerBackground2);
+    text-align: center;
+    padding: 3.3rem 3rem;
+    margin: 5rem 0;
+    font-family: 'Noticia Text', serif;
+    color: #ACD7DC;
+
+    &-header {
+        font-size: 4.9rem;
+        font-weight: 400;
+        text-decoration: underline;
+        margin: 2rem;
+    }
+
+    &-paragraph {
+
+        font-size: 2rem;
+        font-weight: 400;
+
+    }
+
+    &-motto {
+        max-width: 110rem;
+        font-size: 4rem;
+        margin: 4rem auto;
+        font-weight: 400;
+    }
+
+    &-anchor {
+        // width
+        padding:1.4rem 2rem;
+        display: inline-block;
+        font-size: 2rem;
+        text-decoration: none;
+        color:#093538;
+        margin: 4rem auto;
+        border-radius: 1rem;
+        background-color: #ACD7DC;
+    }
+}

@@ -1,0 +1,65 @@
+.deal {
+    ul {
+        text-align: left;
+        margin-left: 5rem;
+        h3{
+            font-family: "Noticia Text", 'sans-serif';
+            font-size: 2.8rem;
+            font-weight: 300;
+            color:#212529;
+            margin:0;
+        }
+        p{
+            margin:0;
+            font-size: 1.7rem;
+            font-weight: 400;
+            color:#212529;
+            line-height: 3.4rem;
+        }
+        list-style: none;
+       
+    }
+    li{
+        span{
+            &:first-child{
+                font-weight: 900;
+                margin: 1rem 0;
+                color: #212529;
+                font-size: 3rem;
+                width: 5rem;
+            }
+            width: 100%;
+        }
+        &:first-child{
+            margin: 0
+        }
+        margin:3rem 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+        align-items: flex-start;
+    }
+    h2 {
+        font-family: "Noticia Text", 'sans-serif';
+        font-weight: 400;
+        font-size: 4.8rem;
+        color: #212529;
+        margin: 7rem auto;
+    }
+
+    &-container {
+        display: flex;
+        width: 86%;
+        margin: 0 auto;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    max-width: 116.7rem;
+    margin: 5rem auto;
+    text-align: center;
+    img{
+        width: 40%;
+    }
+
+}

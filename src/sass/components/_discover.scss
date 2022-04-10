@@ -1,0 +1,42 @@
+// 1077
+
+.discover {
+    margin: 5rem auto;
+    &-content{
+        max-width: 55.4rem;
+        margin-right: 11.6rem;
+        &-header{
+            margin:0;
+            font-family: 'Noticia Text', serif;
+            font-weight: 300;
+            line-height: 4.4rem;
+            word-spacing: 1.5rem;
+            font-size: 3.2rem;
+        }
+        &-paragraph{
+            margin: 2.5rem 0;
+            font-family: Questrial, 'sans-serif';
+            font-size: 1.6rem;
+            line-height: 3rem;
+        }
+        &-button{
+            padding:1rem 2rem;
+            margin: 2.5rem 0;
+            color:#fff;
+            cursor: pointer;
+            transition: all 0.2s;
+            border:none;
+            &:hover{
+                background-color: #1A9499;
+            }
+            border-radius: .5rem;
+            font-family: Questrial, 'sans-serif';
+            font-size: 2rem;
+            line-height: 3rem;
+            background-color: #08C9B9;
+        }
+    }
+    display: flex;
+    // grid-template-columns: 1.5fr 1fr;
+    max-width: 116.7rem;
+}

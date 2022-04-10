@@ -1,0 +1,47 @@
+.numbers {
+    background-image: linear-gradient(to right, #1EA292, $headerBackground2);
+    text-align: center;
+    padding: 3.3rem 3rem 8rem;
+    color: #ADD7DB;
+    margin: 5rem 0 0;
+
+    &-header {
+        font-size: 4.9rem;
+        font-weight: 400;
+        font-family: Questrial, 'sans-serif';
+        margin: 2rem;
+    }
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+
+        &-each {
+            width: 31%;
+            margin-top:3rem;
+            div{
+                margin: 0rem 0 0 2rem;
+            }
+            &-icon{
+                font-size: 3rem !important;
+            }
+            h2{
+                font-size: 2.8rem;
+                margin: -.5rem 0 ;
+                font-family: "Noticia Text", 'sans-serif';
+            }
+            p{
+                font-family: Questrial, 'sans-serif';
+                font-size: 1.7rem;
+                line-height: 3.4rem;
+            }
+            text-align: left;
+            display: flex;
+        }
+    }
+
+    &-inner {
+        max-width: 116.7rem;
+        margin: 0 auto;
+    }
+}

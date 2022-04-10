@@ -1,0 +1,13 @@
+.header {
+    background-image: linear-gradient(to right, $headerBackground1, $headerBackground2);
+    text-align: center;
+    padding: 3.3rem 3rem;
+    margin: 5rem 0;
+
+    h1 {
+        font-family: Questrial, 'sans-serif';
+        color: $headerText;
+        margin: 0;
+        font-size: 6rem;
+    }
+}

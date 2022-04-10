@@ -1,0 +1,56 @@
+.testimonials {
+    &-container {
+        max-width: 116.7rem;
+        margin: 5rem auto;
+        text-align: center;
+    }
+
+    &-header {
+        font-family: "Noticia Text", 'sans-serif';
+        font-weight: 300;
+        font-size: 4.8rem;
+        color: #212529;
+        margin: 0rem auto;
+    }
+
+    &-each {
+        &-content {
+            font-family: Questrial, 'sans-serif';
+            font-weight: 400;
+            line-height: 3.4rem;
+            color: #111111;
+            font-size: 1.7rem;
+        }
+
+        &-author {
+            margin-top: 0;
+            font-family: "Noticia Text", 'sans-serif';
+            font-weight: 700;
+            line-height: 3.9rem;
+            color: #111111;
+            font-size: 2.8rem;
+        }
+
+        &-img {
+            height: 14rem;
+            border-radius: 100%;
+            width: 14rem;
+        }
+    }
+
+    &-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 6rem;
+    }
+
+    &-icon {
+        margin: 4rem auto;
+        transform: rotate(180deg);
+        font-size: 10rem !important;
+        color: #C0C0C0 !important;
+    }
+
+    padding:5rem 0;
+    background-color: #F1F8E9;
+}
