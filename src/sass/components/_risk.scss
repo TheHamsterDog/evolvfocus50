@@ -1,0 +1,21 @@
+.risk{
+    text-align: center;
+    max-width: 120rem;
+    width: 80%;
+    margin: 4rem auto;
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 32%;
+        }
+    }
+    &-bottom{
+        margin: 4rem auto;
+        img{
+            max-width: 60rem;
+            width: 70%;
+        }
+    }
+
+}

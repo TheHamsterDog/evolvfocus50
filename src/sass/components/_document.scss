@@ -1,0 +1,27 @@
+.document{
+    width: 90%;
+    margin:6rem auto;
+    h3{
+        font-weight: 900;
+        font-family: "Noticia Text", sans-serif;
+        text-align:center;
+        font-size: 4rem;
+        margin:0 auto 7rem;
+    }
+    p{
+        
+    }
+    font-family: "Noticia Text", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.9rem;
+    strong{
+        display: block;
+        margin: 4rem 0 1rem;
+    }
+    br{
+        content: "";
+        margin: 1rem;
+        display: block;
+        font-size: 24%;
+    }
+}

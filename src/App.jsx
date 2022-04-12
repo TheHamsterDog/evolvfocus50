@@ -13,23 +13,58 @@ import Testimonials from './components/testimonials';
 import Deal from './components/whatYouGet';
 import More from './components/more';
 import Special from './components/SpecialBonuses';
+import Risk from './components/risk';
+import Prose from './components/Prose';
+import Limited from './components/limitedTime';
+import Discount from './components/discount';
+import Footer from './components/footer';
+import Terms from './components/terms';
+import Privacy from './components/privacy';
+import ScrollToTop from "react-scroll-to-top";
+
+import Disclaimer from './components/disclaimer';
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+} from "react-router-dom";
+let Application = () => {
+  return (<div className="home">
+    <ScrollToTop smooth />
+      
+    <Header />
+    <Discover />
+    <Quiz />
+    <Video />
+    <Different />
+    <Steps />
+    <Numbers />
+    <Learn />
+    <Beneficiary />
+    <Testimonials />
+    <Deal />
+    <More />
+    <Special />
+    <Prose />
+    <Risk />
+    <Limited />
+    <Discount />
+
+  </div>)
+}
 function App() {
   return (
-    <div className="home">
-        <Header />
-        <Discover />
-        <Quiz/>
-        <Video/>
-        <Different/>
-        <Steps />
-        <Numbers/>
-        <Learn />
-        <Beneficiary/>
-        <Testimonials/>
-        <Deal/>
-        <More />
-        <Special/>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Application} />
+        <Route exact path='/disclaimer' component={Disclaimer} />
+        <Route exact path='/terms-of-use' component={Terms} />
+        <Route exact path='/privacy-policy' component={Privacy} />
+
+      </Switch>
+      <Footer />
+    </BrowserRouter >
+
   );
 }
 
