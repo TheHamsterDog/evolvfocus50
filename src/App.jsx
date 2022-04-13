@@ -21,7 +21,7 @@ import Footer from './components/footer';
 import Terms from './components/terms';
 import Privacy from './components/privacy';
 import ScrollToTop from "react-scroll-to-top";
-
+import NotFound from './components/404';
 import Disclaimer from './components/disclaimer';
 import {
   BrowserRouter,
@@ -31,7 +31,7 @@ import {
 let Application = () => {
   return (<div className="home">
     <ScrollToTop smooth />
-      
+
     <Header />
     <Discover />
     <Quiz />
@@ -60,7 +60,7 @@ function App() {
         <Route exact path='/disclaimer' component={Disclaimer} />
         <Route exact path='/terms-of-use' component={Terms} />
         <Route exact path='/privacy-policy' component={Privacy} />
-
+        <Route component={NotFound}></Route>
       </Switch>
       <Footer />
     </BrowserRouter >
