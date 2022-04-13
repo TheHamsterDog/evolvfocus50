@@ -2,6 +2,7 @@
   "name": "project_6",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thehamsterdog.github.io/evolvfocus50",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.9.0",

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-inner">
             <div className="footer-links">
 
-                <Link to="/privacy-policy">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/terms-of-use">Terms Of Use</Link>
                 <Link to="/disclaimer">Disclaimer</Link>
