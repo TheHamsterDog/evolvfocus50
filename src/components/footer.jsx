@@ -3,9 +3,11 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
     return (<div className="footer">
-       
+
         <div className="footer-inner">
             <div className="footer-links">
+
+                <Link to="/privacy-policy">Home</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/terms-of-use">Terms Of Use</Link>
                 <Link to="/disclaimer">Disclaimer</Link>
