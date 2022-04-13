@@ -2,6 +2,9 @@
     max-width: 60rem;
     width: 80%;
     margin: 4rem auto;
+    @include respond(tablet){
+        width:90%;
+    }
     &-header{
         font-family: "Noticia Text", 'sans-serif';
         font-weight: 400;

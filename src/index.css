@@ -26,9 +26,21 @@ html {
   display: flex;
   max-width: 116.7rem;
 }
+@media (max-width: 56.25em) {
+  .discover {
+    display: block;
+    width: 90%;
+  }
+}
 .discover-content {
   max-width: 55.4rem;
   margin-right: 11.6rem;
+}
+@media (max-width: 56.25em) {
+  .discover-content {
+    display: block;
+    width: 100%;
+  }
 }
 .discover-content-header {
   margin: 0;
@@ -60,17 +72,33 @@ html {
 .discover-content-button:hover {
   background-color: #1A9499;
 }
+@media (max-width: 56.25em) {
+  .discover-img-img {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}
 
 .steps {
   max-width: 116.7rem;
   margin: 5rem auto;
   color: #212529;
 }
+@media (max-width: 56.25em) {
+  .steps {
+    width: 90%;
+  }
+}
 .steps-container {
   grid-gap: 4rem;
   display: grid;
   text-align: center;
   grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 56.25em) {
+  .steps-container {
+    display: block;
+  }
 }
 .steps-container-each-header {
   font-weight: 300;
@@ -82,6 +110,11 @@ html {
   color: #26d0a3;
   font-weight: 700;
   font-family: Questrial, "sans-serif";
+}
+@media (max-width: 56.25em) {
+  .steps-container-each-header-number {
+    font-size: 4rem;
+  }
 }
 .steps-container-each-paragraph {
   line-height: 3.4rem;
@@ -106,6 +139,12 @@ html {
   text-align: left;
   margin-left: 5rem;
   list-style: none;
+}
+@media (max-width: 56.25em) {
+  .deal ul {
+    width: 90%;
+    margin: 3rem auto;
+  }
 }
 .deal ul h3 {
   font-family: "Noticia Text", "sans-serif";
@@ -155,8 +194,25 @@ html {
   align-items: flex-start;
   justify-content: space-between;
 }
+@media (max-width: 56.25em) {
+  .deal-container {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 56.25em) {
+  .deal {
+    display: block;
+    width: 90%;
+  }
+}
 .deal img {
   width: 40%;
+}
+@media (max-width: 56.25em) {
+  .deal img {
+    width: 90%;
+  }
 }
 
 .quiz {
@@ -167,11 +223,23 @@ html {
   font-family: "Noticia Text", serif;
   color: #ACD7DC;
 }
+@media (max-width: 56.25em) {
+  .quiz {
+    text-align: left;
+    padding: 3.3rem 2rem;
+  }
+}
 .quiz-header {
   font-size: 4.9rem;
   font-weight: 400;
   text-decoration: underline;
   margin: 2rem;
+}
+@media (max-width: 56.25em) {
+  .quiz-header {
+    font-size: 3.4rem;
+    margin: 2rem 0;
+  }
 }
 .quiz-paragraph {
   font-size: 2rem;
@@ -211,11 +279,24 @@ html {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 56.25em) {
+  .numbers-container {
+    display: block;
+  }
+}
 .numbers-container-each {
   width: 31%;
   margin-top: 3rem;
   text-align: left;
   display: flex;
+}
+@media (max-width: 56.25em) {
+  .numbers-container-each {
+    width: 100%;
+  }
+  .numbers-container-each:first-child {
+    margin-top: 6rem;
+  }
 }
 .numbers-container-each div {
   margin: 0rem 0 0 2rem;
@@ -246,6 +327,13 @@ html {
   height: 42rem;
   justify-content: space-between;
 }
+@media (max-width: 56.25em) {
+  .video {
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+}
 .video-header {
   font-size: 2.7rem;
   line-height: 3.8rem;
@@ -261,6 +349,11 @@ html {
 .video-iframe-iframe {
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  .video-iframe {
+    width: 100%;
+  }
+}
 .video-paragraph {
   font-size: 1.8rem;
   line-height: 3.4rem;
@@ -272,6 +365,12 @@ html {
   flex-direction: column;
   justify-content: space-between;
   width: 48%;
+}
+@media (max-width: 56.25em) {
+  .video-content {
+    width: 100%;
+    margin: 6rem auto;
+  }
 }
 
 .different {
@@ -304,10 +403,20 @@ html {
   text-align: center;
   margin: 5rem auto;
 }
+@media (max-width: 56.25em) {
+  .different-header {
+    text-align: left;
+  }
+}
 .different-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 4rem;
+}
+@media (max-width: 56.25em) {
+  .different-container {
+    display: block;
+  }
 }
 .different-inner {
   max-width: 116.7rem;
@@ -347,6 +456,11 @@ html {
   justify-content: space-between;
   grid-gap: 0 8rem;
 }
+@media (max-width: 56.25em) {
+  .learn-container {
+    display: block;
+  }
+}
 .learn-inner {
   max-width: 116.7rem;
   margin: 0 auto;
@@ -357,6 +471,11 @@ html {
   width: 80%;
   margin: 4rem auto;
   text-align: center;
+}
+@media (max-width: 56.25em) {
+  .beneficiary {
+    width: 90%;
+  }
 }
 .beneficiary-header {
   font-family: "Noticia Text", "sans-serif";
@@ -378,12 +497,22 @@ html {
   margin: 5rem auto;
   text-align: center;
 }
+@media (max-width: 56.25em) {
+  .testimonials-container {
+    width: 90%;
+  }
+}
 .testimonials-header {
   font-family: "Noticia Text", "sans-serif";
   font-weight: 300;
   font-size: 4.8rem;
   color: #212529;
   margin: 0rem auto;
+}
+@media (max-width: 56.25em) {
+  .testimonials-each {
+    margin: 0 auto 7rem;
+  }
 }
 .testimonials-each-content {
   font-family: Questrial, "sans-serif";
@@ -409,6 +538,11 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 6rem;
+}
+@media (max-width: 56.25em) {
+  .testimonials-inner {
+    display: block;
+  }
 }
 .testimonials-icon {
   margin: 4rem auto;
@@ -462,13 +596,32 @@ html {
   align-items: center;
   display: flex;
 }
+@media (max-width: 56.25em) {
+  .special-each {
+    display: block;
+    width: 100%;
+    margin: 0 auto 4rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .special-each {
+    text-align: center;
+  }
+}
 .special-each img {
   height: 20rem;
   width: 20rem;
   border-radius: 100%;
 }
 .special-each-content {
+  text-align: left;
   width: 70%;
+}
+@media (max-width: 56.25em) {
+  .special-each-content {
+    display: block;
+    width: 100%;
+  }
 }
 .special h3 {
   font-family: "Noticia Text", "sans-serif";
@@ -499,6 +652,7 @@ html {
   font-family: "Noticia Text", sans-serif;
   text-align: center;
   font-size: 4rem;
+  line-height: 5rem;
   margin: 0 auto 7rem;
 }
 .document strong {
@@ -544,8 +698,18 @@ html {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 56.25em) {
+  .risk-top {
+    display: block;
+  }
+}
 .risk-top img {
   width: 32%;
+}
+@media (max-width: 56.25em) {
+  .risk-top img {
+    width: 70%;
+  }
 }
 .risk-bottom {
   margin: 4rem auto;
@@ -586,6 +750,9 @@ html {
   padding: 3rem;
   margin: 6rem auto;
   max-width: 120rem;
+}
+.discount img {
+  max-width: 100%;
 }
 .discount p {
   margin: 2rem auto;

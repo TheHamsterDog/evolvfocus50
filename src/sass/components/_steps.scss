@@ -2,7 +2,13 @@
     max-width: 116.7rem;
     margin: 5rem auto;
     color:#212529;
+    @include respond(tablet){
+        width: 90%;
+    }
     &-container{
+        @include respond(tablet){
+            display: block;
+        }
         grid-gap: 4rem;
         display: grid;
         text-align:center;
@@ -13,6 +19,9 @@
                 font-size: 2.6rem;
                 font-family: 'Noticia Text', serif;
                 &-number{
+                    @include respond(tablet){
+                        font-size: 4rem;
+                    }
                     font-size: 6.4rem;
                     color: #26d0a3;
                     font-weight: 700;

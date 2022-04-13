@@ -3,6 +3,9 @@
         max-width: 116.7rem;
         margin: 5rem auto;
         text-align: center;
+        @include respond(tablet){
+            width: 90%;
+        }
     }
 
     &-header {
@@ -14,6 +17,9 @@
     }
 
     &-each {
+        @include respond(tablet){
+            margin: 0 auto 7rem;
+        }
         &-content {
             font-family: Questrial, 'sans-serif';
             font-weight: 400;
@@ -39,6 +45,9 @@
     }
 
     &-inner {
+        @include respond(tablet){
+            display: block;
+        }
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 6rem;

@@ -27,9 +27,15 @@
         font-weight: 300;
         color: #111111;
         text-align: center;
+        @include respond(tablet){
+         text-align:left;
+        }
         margin: 5rem auto ;
     }
     &-container{
+        @include respond(tablet){
+            display: block;
+        }
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 4rem;

@@ -12,22 +12,42 @@
 
         margin: 3rem 0 7rem;
     }
-    &-each{
+
+    &-each {
+        @include respond(tablet) {
+            display: block;
+            width: 100%;
+            margin: 0 auto 4rem;
+        }
+
         width: 90%;
         margin: 0 auto;
         text-align: left;
-        img{
+        @include respond(tablet) {
+            text-align: center;
+        }
+        img {
+           
             height: 20rem;
             width: 20rem;
             border-radius: 100%;
         }
-        &-content{
+
+        &-content {
+            text-align: left;
+            @include respond(tablet) {
+                display: block;
+                width: 100%;
+            }
+
             width: 70%;
         }
+
         justify-content: space-between;
         align-items: center;
         display: flex;
     }
+
     h3 {
         font-family: 'Noticia Text', 'sans-serif';
         font-weight: 300;

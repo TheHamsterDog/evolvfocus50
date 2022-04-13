@@ -1,8 +1,15 @@
-// 1077
 
 .discover {
     margin: 5rem auto;
+    @include respond(tablet){
+        display: block;
+        width: 90%;
+    }
     &-content{
+        @include respond(tablet){
+            display: block;
+            width: 100%;
+        }
         max-width: 55.4rem;
         margin-right: 11.6rem;
         &-header{
@@ -34,6 +41,14 @@
             font-size: 2rem;
             line-height: 3rem;
             background-color: #08C9B9;
+        }
+    }
+    &-img {
+        &-img{
+            @include respond(tablet){
+                margin: 0 auto;
+                max-width:80%
+            }
         }
     }
     display: flex;

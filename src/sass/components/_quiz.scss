@@ -6,7 +6,15 @@
     font-family: 'Noticia Text', serif;
     color: #ACD7DC;
 
+    @include respond(tablet){
+     text-align: left;
+     padding: 3.3rem 2rem;
+    }
     &-header {
+        @include respond(tablet){
+            font-size: 3.4rem;
+            margin: 2rem 0;
+        }
         font-size: 4.9rem;
         font-weight: 400;
         text-decoration: underline;

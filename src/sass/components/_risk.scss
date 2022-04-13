@@ -4,9 +4,16 @@
     width: 80%;
     margin: 4rem auto;
     &-top{
+        @include respond(tablet){
+            display: block;
+        }
         display: flex;
         justify-content: space-between;
         img{
+            
+        @include respond(tablet){
+            width: 70%;
+        }
             width: 32%;
         }
     }
