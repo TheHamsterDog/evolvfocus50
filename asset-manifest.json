@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/evolvfocus50/static/css/main.86ed495b.css",
-    "main.js": "/evolvfocus50/static/js/main.176f1cfd.js",
+    "main.js": "/evolvfocus50/static/js/main.8a2284f2.js",
     "static/js/787.0e2ad688.chunk.js": "/evolvfocus50/static/js/787.0e2ad688.chunk.js",
     "static/media/logo.svg": "/evolvfocus50/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/evolvfocus50/index.html",
     "main.86ed495b.css.map": "/evolvfocus50/static/css/main.86ed495b.css.map",
-    "main.176f1cfd.js.map": "/evolvfocus50/static/js/main.176f1cfd.js.map",
+    "main.8a2284f2.js.map": "/evolvfocus50/static/js/main.8a2284f2.js.map",
     "787.0e2ad688.chunk.js.map": "/evolvfocus50/static/js/787.0e2ad688.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86ed495b.css",
-    "static/js/main.176f1cfd.js"
+    "static/js/main.8a2284f2.js"
   ]
 }
