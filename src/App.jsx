@@ -23,6 +23,7 @@ import Privacy from './components/privacy';
 import ScrollToTop from "react-scroll-to-top";
 import NotFound from './components/404';
 import Disclaimer from './components/disclaimer';
+import News from './components/asSeenOn';
 import {
   BrowserRouter,
   Switch,
@@ -34,7 +35,9 @@ let Application = () => {
 
     <Header />
     <Discover />
+    <News/>
     <Quiz />
+
     <Video />
     <Different />
     <Steps />

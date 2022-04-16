@@ -2,7 +2,7 @@ const WhatYouGet = () => {
     return (<div className="deal">
         <h2>What You Get</h2>
         <div className="deal-container">
-            <img src="https://focus50.today/wp-content/uploads/2022/02/image-2-for-site.jpg" alt="focus50" />
+            <img src="https://knorish-cdn.azureedge.net/public/9cb5ac81-fe17-42f1-bfa2-8c63f72fc9fb/builder/11112021/uv2mg.jpg" alt="focus50" />
             <div>
                 <ul>
                     <li>

@@ -130,6 +130,28 @@ html {
   margin: 5rem auto;
 }
 
+.news {
+  max-width: 116.7rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  text-align: center;
+}
+.news img {
+  width: 80%;
+}
+.news h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0 auto 4rem;
+  color: #323232;
+  font-family: "Questrial", sans-serif;
+}
+
 .deal {
   max-width: 116.7rem;
   margin: 5rem auto;

@@ -25,7 +25,7 @@ const SpecialBonuses = () => {
         content: 'Over 19.5% of the population suffer from Anxiety disorders. This impacts your day-to-day life and well-being. Learn to overcome anxiety and live a fuller life.'
     },
     {
-        img: 'https://focus50.today/wp-content/uploads/2022/02/logo-1536x994.png',
+        img: 'https://knorish-cdn.azureedge.net/public/9cb5ac81-fe17-42f1-bfa2-8c63f72fc9fb/builder/01022022/wc0jt.jpg',
         title: 'Quick Action Bonus #6: Breaking Bad Habits – Video Modules worth $347',
         content: 'It’s about time for you to Break Bad Habits that are drowning you and build good ones! It time to feel liberated.'
 
