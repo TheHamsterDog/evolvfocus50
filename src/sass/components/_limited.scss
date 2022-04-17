@@ -1,17 +1,20 @@
 .limited{
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-family: Questrial, 'sans-serif';
-    background-image: linear-gradient(to right, #1EA292, $headerBackground2);
     text-align: center;
     padding: 3.3rem 3rem;
-    color: #fff;
+    width: 39rem;
+    margin: 0 auto;
+    border-radius: 3rem;
+    box-shadow: 0 0 3rem 0px rgba(0, 0, 0, 0.5);
+    color: #111111;
     p{
         margin:2rem auto;
     }
     h3{
         font-family: 'Noticia Text', sans-serif;
-        font-size: 2.4rem;
+        font-size: 3rem;
         font-weight: 900;
         margin-bottom: 5rem;
         color:#111111;

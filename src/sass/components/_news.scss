@@ -1,21 +1,12 @@
-.news{
-    max-width: 116.7rem;
-    width: 80%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin:0 auto;
-    height: 100vh;
-    text-align:center;
-    img{
+.news {
+    margin: 5rem auto;
+    text-align: center;
+
+    img {
         width: 80%;
     }
-    h1{
-        font-weight: 900;
-        font-size: 3rem;
-        margin: 0 auto 4rem;
-        color:#323232;
-        font-family: 'Questrial', sans-serif;
+
+    h1 {
+        font-size: 4rem;
     }
 }

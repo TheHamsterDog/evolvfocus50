@@ -131,25 +131,14 @@ html {
 }
 
 .news {
-  max-width: 116.7rem;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-  height: 100vh;
+  margin: 5rem auto;
   text-align: center;
 }
 .news img {
   width: 80%;
 }
 .news h1 {
-  font-weight: 900;
-  font-size: 3rem;
-  margin: 0 auto 4rem;
-  color: #323232;
-  font-family: "Questrial", sans-serif;
+  font-size: 4rem;
 }
 
 .deal {
@@ -710,12 +699,61 @@ html {
   width: 80%;
   margin: 4rem auto;
 }
+.prose-container {
+  align-items: flex-start;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.prose-container p:first-child {
+  display: block;
+  width: 60%;
+}
+@media (max-width: 56.25em) {
+  .prose-container p:first-child {
+    width: 100%;
+  }
+}
+.prose-container p:nth-child(2) {
+  display: block;
+  width: 30%;
+  background-image: linear-gradient(to right, #20B18B, #177BA8);
+  padding: 2rem;
+  color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  font-family: "Noticia Text", sans-serif;
+}
+.prose-container p:nth-child(2) a {
+  color: #fff;
+}
+@media (max-width: 56.25em) {
+  .prose-container p:nth-child(2) {
+    width: 100%;
+  }
+}
+@media (max-width: 56.25em) {
+  .prose-container p {
+    width: 100%;
+  }
+}
+@media (max-width: 56.25em) {
+  .prose-container {
+    display: block;
+    text-align: center;
+  }
+}
 .prose h2 {
   font-family: "Noticia Text", "sans-serif";
   font-weight: 400;
   font-size: 4.5rem;
   color: #000000;
   margin: 3rem 0 7rem;
+}
+@media (max-width: 56.25em) {
+  .prose h2 {
+    font-size: 3rem;
+  }
 }
 .prose p {
   font-family: Questrial, "sans-serif";
@@ -759,19 +797,22 @@ html {
 
 .limited {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-family: Questrial, "sans-serif";
-  background-image: linear-gradient(to right, #1EA292, #177BA8);
   text-align: center;
   padding: 3.3rem 3rem;
-  color: #fff;
+  width: 39rem;
+  margin: 0 auto;
+  border-radius: 3rem;
+  box-shadow: 0 0 3rem 0px rgba(0, 0, 0, 0.5);
+  color: #111111;
 }
 .limited p {
   margin: 2rem auto;
 }
 .limited h3 {
   font-family: "Noticia Text", sans-serif;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 5rem;
   color: #111111;
