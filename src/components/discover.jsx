@@ -11,7 +11,7 @@ const Header = () => {
                 <strong><p className="discover-content-paragraph">
                     Most people focus on the wrong things during their personal development journey. Focus 50 reveals precisely what to zone in on, so you can get incredible results in no time flat - with zero guesswork required.
                 </p></strong>
-                <button className="discover-content-button">Enroll Now</button>
+                {/* <button className="discover-content-button">Enroll Now</button> */}
             </div>
             <div className="discover-img">
                 <img className="discover-img-img" src="https://knorish-cdn.azureedge.net/public/9cb5ac81-fe17-42f1-bfa2-8c63f72fc9fb/builder/29102021/ewgf9.jpg" alt="evolv products viewed on different platforms"/>

@@ -24,7 +24,7 @@ const WhatYouGet = () => {
                     <li>
                         <span>✓</span>
                         <span>
-                            <h3>30 days Money Back Guarantee</h3>
+                            <h3>60 days Money Back Guarantee</h3>
                             <p>Don't like the course? No problem. Let us know, and we will give you a full no-questions-asked refund</p>
                         </span>
                     </li>

@@ -15,13 +15,14 @@
             color:#fff !important;
         }
         max-width: 100rem;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     &-links{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        // flex-direction: column;
+        width: 40rem;
+        justify-content: space-between;
         text-align: left;
         a{
             &:hover{

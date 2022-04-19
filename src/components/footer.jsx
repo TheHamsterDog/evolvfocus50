@@ -12,12 +12,12 @@ const Footer = () => {
                 <Link to="/terms-of-use">Terms Of Use</Link>
                 <Link to="/disclaimer">Disclaimer</Link>
             </div>
-
+{/* 
             <div className="footer-socials">
                 <h3>Follow Us On:</h3>
                 <a href="https://www.facebook.com/evolvsmart" target="_blank" rel="noreferrer"><FacebookIcon className="footer-socials-icon" /></a>
                 <a href="https://www.instagram.com/evolvsmart/" target="_blank" rel="noreferrer"><InstagramIcon className="footer-socials-icon" /></a>
-            </div>
+            </div> */}
         </div>
         <div className="footer-copyright">
             Focus50 © 2022 All Right Reserved

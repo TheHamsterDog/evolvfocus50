@@ -36,7 +36,7 @@ let Application = () => {
     <Header />
     <Discover />
     <News/>
-    <Quiz />
+    {/* <Quiz /> */}
 
     <Video />
     <Different />
