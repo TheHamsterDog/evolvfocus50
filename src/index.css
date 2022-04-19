@@ -477,6 +477,35 @@ html {
   margin: 0 auto;
 }
 
+.thanks {
+  height: calc(100vh - 10rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.thanks-container {
+  max-width: 116.7rem;
+  margin: 0 auto;
+}
+.thanks a {
+  color: #2679ad;
+}
+.thanks p {
+  margin: 3rem auto;
+  line-height: 3rem;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.thanks h1 {
+  font-family: "Noticia Text", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0 0 5rem;
+  color: #111111;
+}
+
 .beneficiary {
   max-width: 60rem;
   width: 80%;

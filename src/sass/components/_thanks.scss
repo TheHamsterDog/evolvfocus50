@@ -1,0 +1,29 @@
+.thanks {
+    height: calc(100vh - 10rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    &-container {
+        max-width: 116.7rem;
+        margin: 0 auto;
+    }
+    a{
+        color:#2679ad;
+    }
+    p {
+        margin: 3rem auto;
+        line-height: 3rem;
+        font-weight: 400;
+        font-size: 1.7rem;
+    }
+
+    h1 {
+        font-family: 'Noticia Text', sans-serif;
+        font-size: 3rem;
+        font-weight: 900;
+        margin: 0 0 5rem;
+        color: #111111;
+    }
+}

@@ -24,6 +24,7 @@ import ScrollToTop from "react-scroll-to-top";
 import NotFound from './components/404';
 import Disclaimer from './components/disclaimer';
 import News from './components/asSeenOn';
+import Thanks from './components/thanks';
 import {
   BrowserRouter,
   Switch,
@@ -63,6 +64,8 @@ function App() {
         <Route exact path='/disclaimer' component={Disclaimer} />
         <Route exact path='/terms-of-use' component={Terms} />
         <Route exact path='/privacy-policy' component={Privacy} />
+        
+        <Route component={Thanks} path='/thanks' />
         <Route component={NotFound}></Route>
       </Switch>
       <Footer />
