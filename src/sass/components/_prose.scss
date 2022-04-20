@@ -1,6 +1,6 @@
 .prose {
     text-align: center;
-    max-width: 120rem;
+   
     width: 80%;
     margin: 4rem auto;
     h2{
@@ -14,8 +14,9 @@
         font-family: Questrial, 'sans-serif';
         font-weight: 400;
         font-size: 1.7rem;
+        max-width: 90rem;
         line-height: 4.5rem;
         color: #111;
-        margin: 3rem 0 7rem;
+        margin: 3rem auto 7rem;
     }
 }

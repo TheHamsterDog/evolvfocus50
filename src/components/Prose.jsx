@@ -24,10 +24,6 @@ const Prose = () => {
                     </strong>
                     <br />
                 </p>
-                <p>
-                    Questions? Concerns? Unhappy with Focus 50? Contact our super-friendly customer service team <a href="https://evolv.today/page/Hello"> here.</a>
-
-                </p>
             </div>
         </div>)
 }

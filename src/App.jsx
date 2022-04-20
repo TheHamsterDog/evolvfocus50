@@ -64,8 +64,7 @@ function App() {
         <Route exact path='/disclaimer' component={Disclaimer} />
         <Route exact path='/terms-of-use' component={Terms} />
         <Route exact path='/privacy-policy' component={Privacy} />
-        
-        <Route component={Thanks} path='/thanks' />
+        <Route exact component={Thanks} path='/thanks' />
         <Route component={NotFound}></Route>
       </Switch>
       <Footer />
