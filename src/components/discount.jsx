@@ -1,7 +1,7 @@
 const Discount = () => {
 
     return (<div className="discount">
-        <a href="https://www.jvzoo.com/b/0/378543/5"><img alt="discount" src="https://i.jvzoo.com/0/378543/5" /></a>
+        <a href="https://www.jvzoo.com/b/0/380930/5"><img src="https://i.jvzoo.com/0/380930/5" alt="Focus 50 - Learn and follow what makes succesfull people win" border="0" /></a>
         <div>
             <h2>
                 Why such a massive discount?
